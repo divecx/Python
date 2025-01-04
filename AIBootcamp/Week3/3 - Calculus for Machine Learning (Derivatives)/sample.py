@@ -7,16 +7,16 @@
 
 import sympy as sp
 
-# x = sp.Symbol('x')
-# f = x**2
-# derivative1 = sp.diff(f, x)
+x = sp.Symbol('x')
+f = x**2
+derivative1 = sp.diff(f, x)
 
-# y = sp.Symbol('y')
-# h = sp.cos(y)
-# derivative2 = sp.diff(h, y)
+y = sp.Symbol('y')
+h = sp.cos(y)
+derivative2 = sp.diff(h, y)
 
-# print("Derivative1: ", derivative1)
-# print("Derivative2: ", derivative2)
+print("Derivative1: ", derivative1)
+print("Derivative2: ", derivative2)
 
 # Partial Derivatives
 #     - measures how a function changes with respect to one variable while keeping other variables constant
@@ -32,7 +32,7 @@ f = x**2 + y**2
 grad_x = sp.diff(f, x)
 grad_y = sp.diff(f, y)
 
-print("Partial Derivatives: ", grad_x, grad_y)
+print("Partial Derivatives: ", grad_x, grad_y )
 
 # Gradient Descent Optimization Algorithm
 #     - iterative optimization algorithm used to minimize a function
